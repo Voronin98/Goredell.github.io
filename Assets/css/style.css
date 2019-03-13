@@ -46,6 +46,8 @@
         margin-left:0px;
       }
       p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+		  
+        font-family: 'comic sans', cursive;
         margin: 0 0 14px 0;
       }
       .wrapper {
