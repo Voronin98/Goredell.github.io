@@ -1,7 +1,4 @@
 <style type="text/css">
-      html {
-        background-color:#ffffff;
-      }
       body {
         background-color:#ffffff;
         color: #000000;
@@ -63,7 +60,7 @@
         font-size: 24px;
         font-weight: 100;
         letter-spacing: 5px;
-        font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+        font-family: 'comic sans', cursive;
       }
       .title a {
         color: #333333;
@@ -71,14 +68,14 @@
       .nav {
         display:block;
         list-style: none;
-        padding: 20px 0;
+        padding: 15px 0;
         margin: 0;
         text-align: center;
         font-size: 12px;
         text-transform: uppercase;
         font-weight: 700;
-        border-top: 3px solid white;
-        border-bottom: 1px solid white;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
         font-family: 'comic sans', cursive;
       }
 	  
