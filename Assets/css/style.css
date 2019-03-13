@@ -50,12 +50,6 @@
         font-family: 'comic sans', cursive;
         margin: 0 0 14px 0;
       }
-      .wrapper {
-        min-width: 800px;
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
       .title {
         text-align: center;
         text-transform: uppercase;
