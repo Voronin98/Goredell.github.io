@@ -1,0 +1,89 @@
+<style type="text/css">
+      html {
+        background-color:#ffffff;
+      }
+      body {
+        background-color:#ffffff;
+        color: #000000;
+        font-family: 'comic sans', cursive;
+        font-size: 14px;
+        line-height:2em;
+      }
+      h1, h2, h3, h4, h5 {
+        font-family: 'comic sans', cursive;
+        font-weight: 400;
+      }
+      h1 {
+        font-size: 36px;
+        line-height: 38px;
+      }
+      h2 {
+        font-size: 32px;
+        line-height: 28px;
+      }
+      h3 {
+        font-size: 24px;
+        line-height: 28px;
+      }
+      a:link, a:visited {
+        color: #333333;
+        text-decoration: none;
+      }
+      a:hover, a:active {
+        text-decoration: underline;
+      }
+      hr {
+        border:1px solid black;
+        border-top-width:1px;
+        clear:both;
+        height:0;
+      }
+      ol {
+        list-style:decimal;
+      }
+      ul {
+        list-style:disc;
+        margin-left:0px;
+      }
+      li {
+        margin-left:0px;
+      }
+      p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+        margin: 0 0 14px 0;
+      }
+      .wrapper {
+        min-width: 800px;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 5px;
+        font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
+      }
+      .title a {
+        color: #333333;
+      }
+      .nav {
+        display:block;
+        list-style: none;
+        padding: 20px 0;
+        margin: 0;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-top: 3px solid white;
+        border-bottom: 1px solid white;
+        font-family: 'comic sans', cursive;
+      }
+	  
+      .nav li {
+        margin: 10px;
+        display: inline;
+      }
+    </style>
