@@ -1,0 +1,33 @@
+@startuml
+class Project {
+    {field} deadline: date
+    {field} startDate: date
+    {field} projectName: string
+    {field} projectSynapsys: sting
+    {method} addEvent(): List<event>
+    {method} addMember(): List<member>
+   
+}
+class Member {
+    {field} roleId: int
+    {method}getUserame()
+}
+class Role {
+    {field} roleId: int
+    {field} Role: string
+}
+class User {
+    {field} Username: string
+    {field} Password: string
+}
+class Event {
+    {field} eventName: string
+    {method} setEvent()
+    {method} getEvent()
+
+}
+Project *-- Member
+Member *-- Role
+Member *-- User
+Project *-- Event
+@enduml
