@@ -62,7 +62,7 @@ __webpack_require__.r(__webpack_exports__);
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         var _this = this;
-        this.title = 'univer4kursAngular';
+        this.title = 'Приложение Ангуляр';
         this.name = '';
         this.some = '';
         this.changeName = function (some) {
@@ -187,7 +187,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Andrey\WebstormProjects\univer4kursAngular\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__("./src/main.ts");
 
 
 /***/ })
