@@ -79,18 +79,18 @@
         margin: 10px;
         display: inline;
       }
-	a:link {
-	  color: #4C57D8; 
+	:link {
+	  color: #497DDD; 
 	  border-bottom: 1px dashed; 
 	}
-	a:visited {
+	:visited {
 	  color: #EF7D55;
 	}
-	a:hover {
+	:hover {
 	  color: #154088; 
 	  border-bottom: .07em solid;
 	}
-	a:active {
+	:active {
 	  color: #497DDD; 
 	  border-bottom: 1px dashed;
 	}
