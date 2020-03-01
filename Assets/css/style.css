@@ -2,12 +2,12 @@
       body {
         background-color:#ffffff;
         color: #000000;
-        font-family: 'times new roman ';
+        font-family: 'times new roman';
         font-size: 14px;
         line-height:2em;
       }
       h1, h2, h3, h4, h5 {
-        font-family: 'times new roman ';
+        font-family: 'times new roman';
         font-weight: 400;
       }
       h1 {
@@ -40,7 +40,7 @@
       }
       p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 		  
-        font-family: 'comic sans', cursive;
+        font-family: 'times new roman';
         margin: 0 0 14px 0;
       }
       .title {
@@ -49,7 +49,7 @@
         font-size: 24px;
         font-weight: 100;
         letter-spacing: 5px;
-        font-family: 'comic sans', cursive;
+        font-family: 'times new roman';
       }
       .title a {
         color: #333333;
@@ -65,7 +65,7 @@
         font-weight: 700;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
-        font-family: 'comic sans', cursive;
+        font-family: 'times new roman';
       }
 	  
       .nav li {
