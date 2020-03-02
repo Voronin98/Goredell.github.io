@@ -1,9 +1,11 @@
 
 <html>
 	<head>
-		<title>Лаба №1</title>
+		<title>Лабораторные работы</title>
 	</head>
 	<body>
+    <h1><center>Воронин А.Д. ИДБ-16-06</center></h1>
+	
 	<hr><h1>Лабораторная работа №1</h1></hr>
 		<h2>1.Идентификатор прецедента</h2>
 			<p>Визуализация модели Солнечной Системы</p>
@@ -42,6 +44,7 @@
 			</ul>
 		<h2>Диаграмма UML Use Case</h2>
 			<img src = "https://github.com/Voronin98/student-page/blob/master/Assets/img/Диаграмма%20Proc.png">
+			
 	<hr><h1>Лабораторная работа №2</h1></hr>
 		<h2>1.Роль в проекте</h2>
 			<table border = "1">
@@ -109,9 +112,10 @@
 				<li>Повышение квалификации разработчиков;</li>
 				<li>Попросить продлить срок разработки</li>
 			</ul>
+			
 	<hr><h1>Лабораторная работа №3<h1></hr>
 			<canvas id="canvas" width="400" height="400"
-					style="background-color:#333">
+					style="background-color:#fff">
 			</canvas>
 				<script>
 					var canvas = document.getElementById("canvas");
@@ -132,15 +136,15 @@
 					  ctx.fillStyle = 'white';
 					  ctx.fill();
 					  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-					  grad.addColorStop(0, '#333');
+					  grad.addColorStop(0, '#007dd1');
 					  grad.addColorStop(0.5, 'white');
-					  grad.addColorStop(1, '#333');
+					  grad.addColorStop(1, '#007dd1');
 					  ctx.strokeStyle = grad;
 					  ctx.lineWidth = radius*0.1;
 					  ctx.stroke();
 					  ctx.beginPath();
 					  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
-					  ctx.fillStyle = '#333';
+					  ctx.fillStyle = '#007dd1';
 					  ctx.fill();
 							}
 					function drawNumbers(ctx, radius) {
@@ -191,7 +195,9 @@
 				</script>			
 			<p></p>
 			<img src = "">
+			
 	<hr><h1>Лабораторная работа №4<h1></hr>
+	
 	<hr><h1>Лабораторная работа №5-7<h1></hr>
 	</body>
 </html>
