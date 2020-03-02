@@ -1,0 +1,31 @@
+﻿@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+skinparam usecase {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+left to right direction
+actor P0 as "×åëîâåê"
+actor M0 as "Èãðîâîé äâèæîê"
+actor P as "Ïîëüçîâàòåëü"
+actor M as "Unity 5"
+
+package APP as "Ñèñòåìà âèçóàëèçàöèè Ñîëíå÷íîé Ñèñòåìû"{
+usecase A as "Çàäàòü íà÷àëüíûå äàííûå"
+usecase C as "Âèçóàëèàçöèÿ"
+usecase D as "Ïðîñìîòð ðåçóëüòàòà âèçóàëèçàöèè"
+P -- (A)
+(A) -- M
+P -- (C)
+(C) -- M
+P -- (D)
+(D) -- M
+}
+P0 <|-- P
+M --|> M0
+@enduml
